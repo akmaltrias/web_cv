@@ -1,0 +1,21 @@
+.custom_button {
+  background-color: var(--main-color) !important;
+  font-size: 14px;
+  border: 0;
+  border-radius: 50px !important;
+  padding: 1px 22px !important;
+  line-height: 35px !important;
+  min-width: 100px !important;
+  outline: none;
+}
+
+.custom_button .btn_text {
+  font-size: 14px;
+  font-weight: bolder !important;
+  color: #000;
+  text-transform: none;
+  text-align: center;
+  width: 100%;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+}

@@ -1,0 +1,61 @@
+.profile {
+  background: #fff;
+  border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  -webkit-border-radius: 6px !important;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px !important;
+}
+
+.container_shadow {
+  box-shadow: 0px 2px 92px 0px rgb(0 0 0 / 7%);
+  -webkit-box-shadow: 0px 2px 92px 0px rgb(0 0 0 / 7%);
+  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+}
+
+.profile_name {
+  line-height: 18px;
+  padding: 20px;
+}
+
+.profile_name .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.profile_name .title {
+  font-size: 13px;
+  color: #777;
+}
+
+.profile_image {
+  margin-top: -10px;
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.profile_image img {
+  width: 100%;
+}
+
+.profile_information .timeline {
+  padding-left: 10px !important;
+}
+
+.profile_information .timeline .timeline_content {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.timelineItem_text {
+  font-size: 13.5px !important;
+  color: #787878;
+  font-weight: 400;
+}
+
+.timelineItem_text > span {
+  font-size: 14px !important;
+  color: #000;
+}
